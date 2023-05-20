@@ -1,6 +1,8 @@
 # Rafal Olewicz - currency-converter
 
-![currency converter demo] (images/currency%20converter%20demo.gif)
+## Demo:
 
-### Demo:
+![currency converter demo](images/currency_converter_demo.gif)
+
+## Page:
 https://namerafal.github.io/currency-converter/
