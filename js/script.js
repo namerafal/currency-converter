@@ -26,9 +26,7 @@
         event.preventDefault();
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency");
-
         const amount = +amountElement.value;
-
         const result = calculateResult(amount, currencyElement.value);
 
         updateResultText(amount, currencyElement, result);
@@ -39,7 +37,6 @@
     };
 
     const init = () => {
-
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
