@@ -2,6 +2,15 @@
 
 This is the first example of a currency calculator created by me.
 
+## Demo:
+
+![currency converter demo](images/currency_converter_demo.gif)
+
+
+## Page:
+https://namerafal.github.io/currency-converter/
+
+
 ## Technologies in the project
 
 ### 1. HTML
@@ -12,10 +21,3 @@ This is the first example of a currency calculator created by me.
 ### 3. JavaScript
  -  ES6+ Feature
  -  Arrow Functions
-
-## Demo:
-
-![currency converter demo](images/currency_converter_demo.gif)
-
-## Page:
-https://namerafal.github.io/currency-converter/
