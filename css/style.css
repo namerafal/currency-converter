@@ -9,12 +9,11 @@ html {
 .body {
     display: flex;
     font-family: "Lato", sans-serif;
-    background: center / contain round url("../images/Tło\ walutowe\ z\ pln2.png");
+    background: center / contain round url("../images/currency_background.png");
+    height: 450px;
 }
-
 .container {
     padding: 0px 10px;
-    margin-top: 50px;
     text-align: center;
     margin: auto;
 }

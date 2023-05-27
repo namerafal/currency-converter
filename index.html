@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator walut</title>
-    <meta property = "og:image" content="images/currency_converter_og.png">
-    <link rel="icon" href="images/currency icon.png">
+    <meta property="og:image" content="images/currency_converter_og.png">
+    <link rel="icon" href="images/currency_icon.png">
     <script defer src="js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -22,7 +22,7 @@
 </head>
 
 <body class="body">
-    <div class="container">
+    <div class="container" style="margin-top: 100px;">
         <h1><span class="container__header">Przeliczanie walut na PLN</span></h1>
         <form class="form js-form">
             <fieldset class="form__fieldset">
@@ -33,7 +33,7 @@
                             *Kwota obcej waluty:
                         </span>
                         <input class="form__field js-amount" name="amount" type="number" min="0.25" step=0.01
-                           placeholder="Wpisz kwotę">
+                            placeholder="Wpisz kwotę">
                     </label>
                 </p>
                 <p>
@@ -51,12 +51,12 @@
                 </p>
                 <p class="form__paragraphHeader">Wynik to koszt waluty w stosunku do PLN:</p>
                 <p class="form__result js-result">--Wynik--</p>
+                <p>
+                    <button class="form__button js-submit">PRZELICZ</button>
+                    <button type="reset" class="form__button">WYCZYŚĆ</button>
+                </p>
                 <footer class="form__footer">* pola wymagane</footer>
             </fieldset>
-            <p>
-                <button class="form__button js-submit">PRZELICZ</button>
-                <button type="reset" class="form__button">WYCZYŚĆ</button>
-            </p>
         </form>
     </div>
 </body>
